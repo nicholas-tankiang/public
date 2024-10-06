@@ -22,7 +22,6 @@ class LeafNode(HTMLNode):
         # no props
         # <tag>value</tag>
         return f"<{self.tag}{props_string}>{self.value}</{self.tag}>"
-        # return f"<{self.tag}{' ' + props_string if props_string else ''}>{self.value}</{self.tag}>"
         
 
     
